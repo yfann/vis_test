@@ -1,0 +1,71 @@
+.vis-foreground .vis-group {
+    border:0px;
+}
+
+.vis-foreground .vis-group:hover{
+    background-color: rgba(0, 114, 167, 0.1);
+}
+
+.vis-labelset .vis-label{
+    border-bottom: 0px;
+}
+
+.vis-foreground .missing-group{
+    background-color: rgba(33, 33, 33, 0.05);
+    /* height:39px !important; */
+}
+
+.vis-foreground .vis-group.missing-group:hover{
+    background-color: rgba(33, 33, 33, 0.05);
+    /* height:39px !important; */
+}
+
+.vis-item.vis-point.vis-selected {
+    background-color: transparent;
+}
+
+.vis-item.vis-selected{
+    border-color:#97b0f8;
+    background-color: transparent;
+}
+
+.vis-timeline{
+    border:0px;
+}
+
+.vis-panel.vis-center, .vis-panel.vis-left, .vis-panel.vis-right{
+    border-bottom-style:none;
+}
+
+.vis-item.vis-dot{
+    background-color: transparent;
+    border:0px;
+}
+
+.vis-background .vis-line{
+    border-color:transparent;
+    background-color: transparent;
+}
+
+.vis-background .vis-line.vis-selected{
+    border-color:#97b0f8;
+    border-left-width: 2px;
+}
+
+.img-icon{
+    background: url("../lib/img/ok.svg");
+    width: 24px;
+    height: 24px;
+}
+
+.vis-foreground .vis-item .vis-item-content{
+    padding: 0px;
+}
+
+.vis-foreground .vis-group .vis-item.vis-box{
+    border-style: none;
+}
+
+.vis-foreground .vis-group .vis-item{
+    background-color:transparent;
+}
