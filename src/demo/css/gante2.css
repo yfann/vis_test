@@ -76,8 +76,14 @@
 }
 
 .vis-background .vis-group:hover .vis-line{
-    border-color:#97b0f8;
+    border-color:hsl(225, 87%, 78%);
     border-left-width: 2px;
+}
+
+.vis-background .vis-group:hover .vis-line:after{
+    content:'xxxxxx';
+    position: fixed;
+    top: 28px;
 }
 
 .vis-background .vis-group:hover{
